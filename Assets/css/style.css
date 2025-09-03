@@ -1,0 +1,89 @@
+/* Configurações Globais e Tipografia */
+body {
+    background-color: #1a1a1a; /* Fundo cinza-escuro/quente */
+    color: #c7bba4; /* Cor do "papel envelhecido" para o texto */
+    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #d1c7b0; /* Um tom um pouco mais claro para títulos */
+    font-weight: normal;
+}
+
+/* Estrutura Principal */
+main {
+    max-width: 800px; /* Limita a largura do conteúdo para melhor leitura */
+    margin: 40px auto; /* Centraliza o conteúdo principal */
+}
+
+/* Cabeçalho e Navegação */
+header {
+    text-align: center;
+    border-bottom: 1px solid #4a3f35; /* Linha divisória sépia */
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #b95c2f; /* Cor de acento laranja-ferrugem */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #4a3f35;
+    font-size: 0.9em;
+    color: #4a3f35; /* Cor mais escura, menos destaque */
+}
+/* Estilos para a lista de ensaios */
+.lista-ensaios article {
+    border-bottom: 1px solid #4a3f35; /* Linha divisória entre os artigos */
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.lista-ensaios article:last-child {
+    border-bottom: none; /* Remove a borda do último item */
+}
+
+.lista-ensaios h3 {
+    margin-bottom: 10px;
+}
+
+.lista-ensaios a {
+    color: #b95c2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Estilos para a página do ensaio completo */
+.ensaio-completo .subtitulo {
+    font-style: italic;
+    color: #4a3f35; /* Tom sépia escuro */
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.ensaio-completo .link-voltar {
+    display: inline-block;
+    margin-top: 40px;
+    color: #b95c2f;
+    text-decoration: none;
+    font-weight: bold;
+}
